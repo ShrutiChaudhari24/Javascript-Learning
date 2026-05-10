@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* Form Card */
+.form-card {
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  margin: 0 auto 40px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
+.form-card h2 {
+  margin-bottom: 20px;
+}
+
+.form-card input,
+.form-card textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+}
+
+.form-card textarea {
+  resize: none;
+  height: 80px;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-card button:hover {
+  background: #555;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255,255,255,0.05);
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card .role {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ccc;
+}
